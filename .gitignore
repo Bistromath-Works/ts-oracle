@@ -1,0 +1,17 @@
+# Environment — never commit real keys
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Build output
+.vercel/
+dist/
+
+# Repo clones from the indexing pipeline
+/tmp/ts-trainer-index/
+
+# OS
+.DS_Store
